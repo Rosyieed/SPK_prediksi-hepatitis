@@ -67,7 +67,7 @@ if st.button('Prediksi'):
     yellow_urine, yellowing_of_eyes, acute_liver_failure, malaise, family_history, receiving_blood_transfusion, receiving_unsterile_injections,
     coma, stomach_bleeding]]
     
-    if any(data[0]):
+    if sum(data[0]) >= 5:
         pred = hepatitis_model.predict(data)
         
         #menampilkan hasil prediksi
