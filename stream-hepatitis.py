@@ -72,15 +72,15 @@ if st.button('Prediksi'):
         
         #menampilkan hasil prediksi
         if pred[0] == 'hepatitis A':
-            st.success('Anda Terkena Hepatitis A')
+            st.success('Anda Diprediksi Terkena Hepatitis A')
         elif pred[0] == 'Hepatitis B':
-            st.success('Anda Terkena Hepatitis B')
+            st.success('Anda Diprediksi Terkena Hepatitis B')
         elif pred[0] == 'Hepatitis C':
-            st.success('Anda Terkena Hepatitis C')
+            st.success('Anda Diprediksi Terkena Hepatitis C')
         elif pred[0] == 'Hepatitis D':
-            st.success('Anda Terkena Hepatitis D')
+            st.success('Anda Diprediksi Terkena Hepatitis D')
         elif pred[0] == 'Hepatitis E':
-            st.success('Anda Terkena Hepatitis E')
+            st.success('Anda Diprediksi Terkena Hepatitis E')
     else:
         st.warning('Silakan pilih minimal lebih dari 5 gejala.')
 
